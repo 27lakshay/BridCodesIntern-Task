@@ -3,7 +3,6 @@ import styled from "styled-components";
 import dp from "../assets/dp1.png";
 
 const Review = styled.div`
-    height: 60vh;
     display: flex;
     margin: 0px auto;
     flex-direction: column;

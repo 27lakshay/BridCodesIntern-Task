@@ -41,7 +41,7 @@ const infoContainer = ({ image, heading, content, button, reverse }) => {
             <ColumnRight reverse={reverse}>
                 <h3>{heading}</h3>
                 <div className="text_large">{content}</div>
-                <a>{button}</a>
+                {/* <a>{button}</a> */}
             </ColumnRight>
         </InfoContainer>
     );

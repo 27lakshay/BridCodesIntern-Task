@@ -1,4 +1,5 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
+import { Link } from 'react-router-dom';
 
 export const ButtonNormal = styled.button`
     /* width: 252px;
@@ -6,10 +7,10 @@ export const ButtonNormal = styled.button`
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 18px 41px;
+    padding: 1rem 2rem;
     font-style: normal;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 120%;
     border-radius: 8px;
     text-align: center;
@@ -19,9 +20,9 @@ export const ButtonNormal = styled.button`
     background: ${({ primary }) => (primary ? "#0E6FFF" : "#FF4242")};
 `;
 
-export const ButtonSmall = styled.button`
-    /* width: 138px;
-    height: 41px; */
+export const ButtonSmall = styled(Link)`
+    width: 125px;
+    height: 41px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -42,3 +43,11 @@ export const ButtonSmall = styled.button`
     /* Primary */
     color: #0e6fff;
 `;
+
+// export const ArrowButtons = css`
+//     width: 50px;
+//     height: 50px;
+//     border-radius: 50px;
+//     color: red;
+//     background: rgba(17, 19, 30, 0.2);
+// `;
