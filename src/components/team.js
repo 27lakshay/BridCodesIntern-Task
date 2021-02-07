@@ -27,11 +27,11 @@ const Member = styled.div`
     max-width: 320px;
 `;
 
-const Team = ({ name, title }) => {
+const Team = () => {
     return (
         <TeamContainer>
             <h2>Our Leadership</h2>
-            <p>
+            <p className="text_large">
                 Convallis turpis erat tempus, viverra aliquet. Nullam viverra nam auctor sit ipsum
                 malesuada a, duis volutpat.
             </p>

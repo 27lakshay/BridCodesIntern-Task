@@ -34,14 +34,14 @@ const LandingPage = () => {
             <BgColor1 />
             <BgColor2 />
             <Hero />
-            <InfoBoxImage />
-            <InfoBox {...InfoDataOne} />
-            <InfoBox {...InfoDataTwo} />
+            {/* <InfoBoxImage /> */}
+            {/* <InfoBox {...InfoDataOne} /> */}
+            {/* <InfoBox {...InfoDataTwo} /> */}
             <CardWrapper />
-            <InfoBoxText />
+            {/* <InfoBoxText /> */}
             <Team />
             <Review />
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 };

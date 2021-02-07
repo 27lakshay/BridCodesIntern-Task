@@ -13,15 +13,15 @@ const InfoBoxText = () => {
     return (
         <InfoBoxTextContainer>
             <ColumnLeft>
-                <div></div>
+                <div className="caption"></div>
                 <h3></h3>
-                <div className="text_large"></div>
+                <p className="text_large"></p>
             </ColumnLeft>
             <ColumnRight>
                 <div>
                     <img />
-                    <div></div>
-                    <div></div>
+                    <div className="text_subtitle"></div>
+                    <div className="text_medium"></div>
                 </div>
             </ColumnRight>
         </InfoBoxTextContainer>

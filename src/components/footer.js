@@ -36,7 +36,7 @@ const footer = () => {
         <Footer>
             <ColumnText>
                 <img></img>
-                <p>
+                <p className="text_medium">
                     The best design for your web studio website. Vitae
                     <br />
                     nulla nunc euismod vel pretium tellus accumsan
@@ -47,8 +47,8 @@ const footer = () => {
                 </p>
             </ColumnText>
             <ColumnOptions>
-                <div>Pages</div>
-                <ul>
+                <div className="text_small">Pages</div>
+                <ul className="text_small">
                     <li>Templates</li>
                     <li>Prices</li>
                     <li>Help</li>
@@ -56,16 +56,16 @@ const footer = () => {
                 </ul>
             </ColumnOptions>
             <ColumnOptions>
-                <div>Demos</div>
-                <ul>
+                <div className="text_small">Demos</div>
+                <ul className="text_small">
                     <li>Dark Theme</li>
                     <li>Light Theme</li>
                     <li>Classic Theme</li>
                 </ul>
             </ColumnOptions>
             <ColumnOptions>
-                <div>Resources</div>
-                <ul>
+                <div className="text_small">Resources</div>
+                <ul className="text_small">
                     <li>Documentation</li>
                 </ul>
             </ColumnOptions>

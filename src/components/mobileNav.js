@@ -21,10 +21,10 @@ const DropDownContainer = styled.div`
 
 const Icon = styled.div`
     position: absolute;
-    top: 1.2rem;
-    right: 1.5rem;
+    top: 2rem;
+    right: 2rem;
     background: transparent;
-    font-size: 2rem;
+    font-size: 4rem;
     cursor: pointer;
     outline: none;
 `;
@@ -51,6 +51,15 @@ const DropdownLink = styled.div`
     color: #fff;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 135%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-decoration: none;
 `;
 
 const MobileNav = ({ isOpen, toggle }) => {

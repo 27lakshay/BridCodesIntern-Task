@@ -7,17 +7,120 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     /* color: #23242a; */
     }
 
 html,
 body {
     font-size: 10px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    @media screen and (max-width: 1200px) {
+        body{
+            font-size: 8px;
+        }
+    }
 }
-
 h1 {
+    font-style: normal;
+font-weight: bold;
+font-size: 8.4rem;
+line-height: 110%;
+/* or 92px */
+display: flex;
+align-items: center;
+letter-spacing: -0.045em;
+}
+h2 {
+    font-style: normal;
+font-weight: bold;
+font-size: 6.4rem;
+line-height: 110%;
+/* or 70px */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.045em;
+}
+h3 {
+    font-style: normal;
+font-weight: bold;
+font-size: 5.2rem;
+line-height: 110%;
+/* or 57px */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.045em;
+}
+h4 {
+    font-style: normal;
+font-weight: 500;
+font-size: 4rem;
+line-height: 110%;
+/* or 48px */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+}
+.text_subtitle {
+    font-style: normal;
+font-weight: bold;
+font-size: 3rem;
+line-height: 120%;
+/* or 36px */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+}
+.text_large {
+    font-style: normal;
+font-weight: normal;
+font-size: 2.8rem;
+line-height: 120%;
+/* or 34px */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.01em;
+}
+.text_medium {
+    font-style: normal;
+font-weight: normal;
+font-size: 2rem.4rem;
+line-height: 130%;
+/* or 31px */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+}
+.text_small {
+    font-style: normal;
+font-weight: bold;
+font-size: 1.8rem;
+line-height: 135%;
+/* or 24px */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.01em;
+}
+.caption {
+    font-style: normal;
+font-weight: 500;
+font-size: 2.3rem;
+line-height: 120%;
+/* or 28px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.11em;
+text-transform: uppercase;
+}
+/* h1 {
     font-style: normal;
     font-weight: bold;
     font-size: clamp(3.8rem, 6vw, 7rem);
@@ -34,14 +137,12 @@ h3 {
     font-style: normal;
     font-weight: bold;
     font-size: clamp(2.6rem, 4vw, 5.4rem);
-    /* font-size: 1.6rem;  */
     line-height: 110%;
 }
 h4 {
     font-style: normal;
     font-weight: bold;
     font-size: clamp(2.2rem, 4vw, 4.4rem);
-    /* font-size: 0.6rem;  */
     line-height: 110%;
 }  
 
@@ -72,7 +173,7 @@ font-size: clamp(1.6rem, 3vw, 3rem);
 line-height: 120%;
 letter-spacing: 0.11em;
 text-transform: uppercase;
-}
+} */
 
 `;
 

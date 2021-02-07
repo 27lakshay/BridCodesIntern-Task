@@ -7,10 +7,24 @@ const Slider = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    max-width: 600px;
-    max-height: 700px;
+    width: 40%;
+    height: 700px;
+    max-width: 830px;
+    max-height: 940px;
+    @media screen and (max-width: 1200px) {
+        width: 100%;
+        padding: 5% 5%;
+        margin: 0 auto;
+    }
+    @media screen and (max-width: 768px) {
+        padding: 5% 0;
+    }
+    /* width: 100%; */
+    /* height: 80vh;
+    max-width: 830px;
+    max-height: 940px;
     position: relative;
-    overflow: hidden;
+    overflow: hidden; */
 `;
 const SlideWrapper = styled.div`
     display: flex;
@@ -71,7 +85,7 @@ const ArrowButtons = css`
         color: white;
     }
     &:active {
-        background: rgba(122, 122, 122, 0.26) ;
+        background: rgba(122, 122, 122, 0.26);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 40px;
     }
@@ -89,6 +103,7 @@ const ImageSlider = ({ slides }) => {
     const length = slides.length;
     const timeout = useRef(null);
 
+    // uncomment to enable auto slide
     // useEffect(() => {
     //     const nextSlide = () => {
     //         setCurrent((current) => (current === length - 1 ? 0 : current + 1));
