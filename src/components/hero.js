@@ -6,7 +6,7 @@ import { ButtonNormal } from "./button";
 import Review from "./review";
 
 const Hero = styled.div`
-    padding-top: 10%;
+    padding-top: 10rem;
     display: flex;
     justify-content: center;
     max-width: 1400px;
@@ -26,9 +26,12 @@ const Hero = styled.div`
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
+        > div {
+            margin-bottom: 2rem;
+        }
         @media screen and (max-width: 1200px) {
             width: 100%;
-    }
+        }
     }
     h1 {
         margin-bottom: 20px;

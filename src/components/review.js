@@ -8,6 +8,9 @@ const Review = styled.div`
     flex-direction: column;
     align-items: flex-start;
     max-width: 910px;
+    > * {
+        margin-bottom: 2rem;
+    }
 `;
 
 const Profile = styled.div`
@@ -15,7 +18,7 @@ const Profile = styled.div`
     display: flex;
     justify-content: space-between;
     img {
-        width: 50px;
+        width: 60px;
     }
 `;
 const ProfileDetail = styled.div`
@@ -31,7 +34,7 @@ const review = () => {
             <Profile>
                 <img src={dp} />
                 <ProfileDetail>
-                    <div classname="text_subtitle">Andry Ford</div>
+                    <div className="text_subtitle">Andry Ford</div>
                     <div className="text_medium">CEO at Whatever</div>
                 </ProfileDetail>
             </Profile>

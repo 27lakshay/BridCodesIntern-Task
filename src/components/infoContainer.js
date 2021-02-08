@@ -3,12 +3,10 @@ import styled from "styled-components";
 import { InfoContainer } from "./info";
 
 const ColumnLeft = styled.div`
-    max-width: 800px;
     justify-self: end;
     order: ${({ reverse }) => (reverse ? "2" : "1")};
     img {
         width: 100%;
-        height: 100%;
         object-fit: cover;
         --o-object-fit: cover;
         border-radius: 10px;
@@ -19,7 +17,6 @@ const ColumnLeft = styled.div`
     }
 `;
 const ColumnRight = styled.div`
-    max-width: 800px;
     justify-self: start;
     height: 100%;
     width: 100%;
@@ -29,6 +26,9 @@ const ColumnRight = styled.div`
     order: ${({ reverse }) => (reverse ? "1" : "2")};
     @media screen and (max-width: 768px) {
         order: 1;
+    }
+    > * {
+        margin-bottom: 2rem;
     }
 `;
 

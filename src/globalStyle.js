@@ -15,9 +15,27 @@ html,
 body {
     font-size: 10px;
     /* overflow-x: hidden; */
-    @media screen and (max-width: 1200px) {
-        body{
-            font-size: 8px;
+    @media screen and (max-width: 768px) {
+        h1 {
+            font-size: 4.6rem;
+        }
+        h2 {
+            font-size: 4.2rem;
+        }
+        h3 {
+            font-size: 3.4rem;
+        }
+        h4 {
+            font-size: 2.8rem;
+        }
+        .text_large {
+            font-size: 2.4rem;
+        }
+        .text_medium {
+            font-size: 2rem;
+        }
+        .text_small {
+            font-size: 1.6rem;
         }
     }
 }
@@ -89,7 +107,7 @@ letter-spacing: -0.01em;
 .text_medium {
     font-style: normal;
 font-weight: normal;
-font-size: 2rem.4rem;
+font-size: 2.4rem;
 line-height: 130%;
 /* or 31px */
 
@@ -111,7 +129,7 @@ letter-spacing: -0.01em;
 .caption {
     font-style: normal;
 font-weight: 500;
-font-size: 2.3rem;
+font-size: 2.2rem;
 line-height: 120%;
 /* or 28px */
 

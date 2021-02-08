@@ -7,7 +7,17 @@ const TeamContainer = styled.div`
     flex-direction: column;
     justify-content: space-evenly;
     width: auto;
+    max-width: 1400px;
+    margin: 0 auto;
     /* height: 100vh; */
+    > * {
+        margin-bottom: 2rem;
+    }
+    h2,
+    p {
+        align-self: center;
+        text-align: center;
+    }
 `;
 const Members = styled.div`
     height: 100%;
@@ -23,8 +33,10 @@ const Member = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     max-height: 490px;
     max-width: 320px;
+    margin: 3rem 2rem;
 `;
 
 const Team = () => {
@@ -40,8 +52,8 @@ const Team = () => {
                     <Member key={index}>
                         <img src={item.image} />
                         <div>
-                            <div>{item.name}</div>
-                            <div>{item.title}</div>
+                            <div className="text_subtitle">{item.name}</div>
+                            <div className="text_medium">{item.title}</div>
                         </div>
                     </Member>
                 ))}

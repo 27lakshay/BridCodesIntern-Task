@@ -31,14 +31,14 @@ const BgColor2 = styled.div`
 const LandingPage = () => {
     return (
         <>
-            <BgColor1 />
-            <BgColor2 />
+            {/* <BgColor1 />
+            <BgColor2 /> */}
             <Hero />
-            {/* <InfoBoxImage /> */}
-            {/* <InfoBox {...InfoDataOne} /> */}
-            {/* <InfoBox {...InfoDataTwo} /> */}
+            <InfoBoxImage />
+            <InfoBox {...InfoDataOne} />
+            <InfoBox {...InfoDataTwo} />
             <CardWrapper />
-            {/* <InfoBoxText /> */}
+            <InfoBoxText />
             <Team />
             <Review />
             {/* <Footer /> */}
