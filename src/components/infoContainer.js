@@ -2,11 +2,15 @@ import React from "react";
 import styled from "styled-components";
 import { InfoContainer } from "./info";
 
+const InfoWrapper = styled(InfoContainer)`
+    column-gap: 3em;
+`
 const ColumnLeft = styled.div`
     justify-self: end;
     order: ${({ reverse }) => (reverse ? "2" : "1")};
     img {
         width: 100%;
+        max-height: 70vh;
         object-fit: cover;
         --o-object-fit: cover;
         border-radius: 10px;
@@ -34,7 +38,7 @@ const ColumnRight = styled.div`
 
 const infoContainer = ({ image, heading, content, button, reverse }) => {
     return (
-        <InfoContainer>
+        <InfoWrapper>
             <ColumnLeft reverse={reverse}>
                 <img src={image}></img>
             </ColumnLeft>
@@ -43,7 +47,7 @@ const infoContainer = ({ image, heading, content, button, reverse }) => {
                 <div className="text_large">{content}</div>
                 {/* <a>{button}</a> */}
             </ColumnRight>
-        </InfoContainer>
+        </InfoWrapper>
     );
 };
 

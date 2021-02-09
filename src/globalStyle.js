@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     /* color: #23242a; */
     }
 
@@ -89,8 +89,6 @@ font-size: 3rem;
 line-height: 120%;
 /* or 36px */
 
-display: flex;
-align-items: center;
 letter-spacing: -0.03em;
 }
 .text_large {
@@ -99,9 +97,6 @@ font-weight: normal;
 font-size: 2.8rem;
 line-height: 120%;
 /* or 34px */
-
-display: flex;
-align-items: center;
 letter-spacing: -0.01em;
 }
 .text_medium {
@@ -110,9 +105,6 @@ font-weight: normal;
 font-size: 2.4rem;
 line-height: 130%;
 /* or 31px */
-
-display: flex;
-align-items: center;
 letter-spacing: -0.02em;
 }
 .text_small {
@@ -121,9 +113,6 @@ font-weight: bold;
 font-size: 1.8rem;
 line-height: 135%;
 /* or 24px */
-
-display: flex;
-align-items: center;
 letter-spacing: -0.01em;
 }
 .caption {
@@ -132,9 +121,6 @@ font-weight: 500;
 font-size: 2.2rem;
 line-height: 120%;
 /* or 28px */
-
-display: flex;
-align-items: center;
 letter-spacing: 0.11em;
 text-transform: uppercase;
 }

@@ -11,7 +11,7 @@ const TeamContainer = styled.div`
     margin: 0 auto;
     /* height: 100vh; */
     > * {
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
     h2,
     p {

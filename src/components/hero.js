@@ -4,6 +4,7 @@ import Slider from "./imageSlider";
 import { SliderData } from "../data/sliderData";
 import { ButtonNormal } from "./button";
 import Review from "./review";
+import { Review1 } from "../data/reviewData";
 
 const Hero = styled.div`
     padding-top: 10rem;
@@ -53,7 +54,7 @@ const hero = () => {
                     </h1>
                     <ButtonNormal primary>Get In Touch</ButtonNormal>
                 </div>
-                <Review />
+                <Review {...Review1} />
             </div>
             <Slider slides={SliderData} />
         </Hero>

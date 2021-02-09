@@ -2,11 +2,12 @@ import styled from "styled-components/macro";
 import { Link } from 'react-router-dom';
 
 export const ButtonNormal = styled.button`
-    /* width: 252px;
-    height: 72px; */
-    display: flex;
+    max-width: 200px;
+    max-height: 72px;
+    /* display: flex;
     flex-direction: row;
-    align-items: center;
+    
+    align-items: center; */
     padding: 1rem 2rem;
     font-style: normal;
     font-weight: 500;

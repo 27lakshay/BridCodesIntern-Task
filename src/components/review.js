@@ -1,10 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import dp from "../assets/dp1.png";
 
 const Review = styled.div`
     display: flex;
-    /* margin: 0px auto; */
+    margin: 0px auto;
     flex-direction: column;
     align-items: flex-start;
     max-width: 910px;
@@ -27,15 +26,15 @@ const ProfileDetail = styled.div`
     justify-content: center;
     text-align: left;
 `;
-const review = () => {
+const review = ({ content, image, name, title }) => {
     return (
         <Review>
-            <h4>“I feel so much less stressed as I now know by the book.”</h4>
+            <h4>{content}</h4>
             <Profile>
-                <img src={dp} />
+                <img src={image} />
                 <ProfileDetail>
-                    <div className="text_subtitle">Andry Ford</div>
-                    <div className="text_medium">CEO at Whatever</div>
+                    <div className="text_subtitle">{name}</div>
+                    <div className="text_medium">{title}</div>
                 </ProfileDetail>
             </Profile>
         </Review>
