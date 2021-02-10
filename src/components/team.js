@@ -8,7 +8,7 @@ const TeamContainer = styled.div`
     justify-content: space-evenly;
     width: auto;
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 5rem auto;
     /* height: 100vh; */
     > * {
         margin-bottom: 3rem;

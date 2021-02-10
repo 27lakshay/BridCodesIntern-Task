@@ -26,6 +26,9 @@ const ColumnText = styled.div`
     display: flex;
     flex-direction: column;
     margin: 2em 0;
+    @media screen and (max-width: 992px) {
+            margin: 0 2rem;
+        }
     p {
         color: rgba(255, 255, 255, 0.5);
     }
@@ -75,6 +78,9 @@ const FooterBottom = styled.div`
         display: flex;
         align-items: center;
         justify-content: space-between;
+        @media screen and (max-width: 992px) {
+            margin: 0 2rem;
+        }
         @media screen and (max-width: 425px) {
             /* display: flex; */
             flex-direction: column;

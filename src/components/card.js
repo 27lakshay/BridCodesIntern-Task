@@ -29,7 +29,7 @@ const CardBody = styled.div`
 `;
 const CardFooter = styled.div`
     width: 100%;
-    min-height: 60px;
+    height: 100px;
     border-top: 1px solid grey;
     border-radius: 0 0 10px 10px;
     padding: 0 3rem;

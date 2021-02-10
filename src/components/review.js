@@ -3,12 +3,15 @@ import styled from "styled-components";
 
 const Review = styled.div`
     display: flex;
-    margin: 0px auto;
+    margin: 2rem auto;
     flex-direction: column;
     align-items: flex-start;
     max-width: 910px;
     > * {
         margin-bottom: 2rem;
+    }
+    @media screen and (max-width: 992px) {
+        margin: 2rem 1rem;
     }
 `;
 

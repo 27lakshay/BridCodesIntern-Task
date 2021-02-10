@@ -5,7 +5,7 @@ import { InfoContainer } from "./info";
 
 const InfoBoxCardContainer = styled(InfoContainer)`
     grid-template-columns: none;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 25% 75%;
 `;
 
 // const Text = styled.div`

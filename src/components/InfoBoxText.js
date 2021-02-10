@@ -6,6 +6,7 @@ import icon from "../assets/icon.png";
 const InfoBoxTextContainer = styled(InfoContainer)`
     grid-template-rows: 1fr 1fr;
     grid-template-columns: none;
+    /* margin: 5rem auto; */
     @media screen and (max-width: 768px) {
         grid-template-rows: auto;
     }

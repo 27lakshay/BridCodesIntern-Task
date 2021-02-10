@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     /* color: #23242a; */
     }
 
@@ -44,6 +44,8 @@ h1 {
 font-weight: bold;
 font-size: 8.4rem;
 line-height: 110%;
+color: rgba(35,36,42,1);
+
 /* or 92px */
 display: flex;
 align-items: center;
@@ -55,6 +57,7 @@ font-weight: bold;
 font-size: 6.4rem;
 line-height: 110%;
 /* or 70px */
+color: rgba(35,36,42,1);
 
 display: flex;
 align-items: center;
@@ -66,6 +69,7 @@ font-weight: bold;
 font-size: 5.2rem;
 line-height: 110%;
 /* or 57px */
+color: rgba(35,36,42,1);
 
 display: flex;
 align-items: center;
@@ -77,6 +81,7 @@ font-weight: 500;
 font-size: 4rem;
 line-height: 110%;
 /* or 48px */
+color: rgba(35,36,42,1);
 
 display: flex;
 align-items: center;
@@ -88,6 +93,7 @@ font-weight: bold;
 font-size: 3rem;
 line-height: 120%;
 /* or 36px */
+
 
 letter-spacing: -0.03em;
 }

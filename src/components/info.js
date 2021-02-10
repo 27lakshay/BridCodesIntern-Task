@@ -6,7 +6,7 @@ import styled from "styled-components";
 // `;
 
 export const InfoContainer = styled.div`
-    margin: 18em auto;
+    margin: 5rem auto;
     @media screen and (max-width: 1480px) {
         margin: 3% 3%;
     }

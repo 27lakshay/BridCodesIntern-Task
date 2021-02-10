@@ -22,6 +22,9 @@ const CTAWrapper = styled.div`
             margin-bottom: 3rem;
         }
     }
+    @media screen and (max-width: 1400px) {
+        margin: 5rem 1rem;
+    }
     @media screen and (max-width: 992px) {
         flex-direction: column;
         padding: 2em;
