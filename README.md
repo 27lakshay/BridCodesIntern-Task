@@ -2,6 +2,11 @@ Demo
 
 ![Farmers Market Finder Demo](https://github.com/27lakshay/demo_gifs/blob/main/Desktop_Demo.gif)
 
+Tablet Demo
+
+![Farmers Market Finder Demo](https://github.com/27lakshay/demo_gifs/blob/main/Tablet_Demo.gif)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
