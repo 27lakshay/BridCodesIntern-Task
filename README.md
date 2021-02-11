@@ -1,6 +1,6 @@
 Demo
 
-![Farmers Market Finder Demo](Desktop_Demo.gif)
+![Farmers Market Finder Demo](https://github.com/27lakshay/demo_gifs/blob/main/Desktop_Demo.gif)
 
 # Getting Started with Create React App
 
