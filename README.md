@@ -2,9 +2,9 @@ Desktop Demo
 
 ![Demo](https://github.com/27lakshay/demo_gifs/blob/main/BridCodes_Desktop_Demo.gif)
 
-Tablet Demo
+Mobile Demo
 
-![Demo](https://github.com/27lakshay/demo_gifs/blob/main/BridCodes_Tablet_Demo.gif)
+![Demo](https://github.com/27lakshay/demo_gifs/blob/main/BridCodes_Mobile_Demo.gif)
 
 
 # Getting Started with Create React App
