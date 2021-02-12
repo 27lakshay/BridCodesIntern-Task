@@ -1,10 +1,10 @@
-Demo
+Desktop Demo
 
-![Farmers Market Finder Demo](https://github.com/27lakshay/demo_gifs/blob/main/Desktop_Demo.gif)
+![Demo](https://github.com/27lakshay/demo_gifs/blob/main/BridCodes_Desktop_Demo.gif)
 
 Tablet Demo
 
-![Farmers Market Finder Demo](https://github.com/27lakshay/demo_gifs/blob/main/Tablet_Demo.gif)
+![Demo](https://github.com/27lakshay/demo_gifs/blob/main/BridCodes_Tablet_Demo.gif)
 
 
 # Getting Started with Create React App
